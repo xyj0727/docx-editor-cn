@@ -1,0 +1,80 @@
+{
+  "_comment": "《岩土工程学报》(CJGE) layout for everything except MathType equations. Source: CJGE_论文排版格式规范.md (measured from the published PDF + the journal's author guidelines). Sizes, spacing and indents in pt; before/after values of the front matter reproduce the measured baseline-to-baseline distances. 二号 22, 四号 14, 小四 12, 五号 10.5, 小五 9, 六号 7.5.",
+  "page": {
+    "width_cm": 21.0,
+    "height_cm": 29.7,
+    "left_cm": 1.65,
+    "right_cm": 1.53,
+    "top_cm": 2.15,
+    "bottom_cm": 2.15,
+    "header_cm": 1.5,
+    "footer_cm": 1.0,
+    "body_columns": 2,
+    "column_space_cm": 0.74
+  },
+  "roles": {
+    "body":            {"latin": "Times New Roman", "east": "SimSun",   "size": 10.5, "align": "justify", "first_chars": 2, "line_rule": "exact", "line_pt": 15.6},
+    "empty":           {"latin": "Times New Roman", "east": "SimSun",   "size": 10.5, "align": "justify", "first_pt": 0,    "line_rule": "exact", "line_pt": 15.6},
+    "figure":          {"latin": "Times New Roman", "east": "SimSun",   "size": 10.5, "align": "center",  "first_pt": 0,    "line_rule": "auto",  "line_multiple": 1.0},
+
+    "doi":             {"latin": "Times New Roman", "east": "SimSun",   "size": 10.5, "bold": true, "align": "left", "first_pt": 0, "line_rule": "exact", "line_pt": 15.6},
+    "title":           {"latin": "Times New Roman", "east": "SimHei",   "size": 22,   "bold": false, "color": "000000", "align": "center", "first_pt": 0, "before": 0, "after": 8, "line_rule": "exact", "line_pt": 30},
+    "authors":         {"latin": "Times New Roman", "east": "FangSong", "size": 10.5, "align": "center", "first_pt": 0, "after": 6, "line_rule": "exact", "line_pt": 15.6},
+    "affiliation":     {"latin": "Times New Roman", "east": "SimSun",   "size": 7.5,  "align": "center", "first_pt": 0, "after": 10, "line_rule": "exact", "line_pt": 12},
+    "abstract_cn":     {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 14,
+                        "labels": [{"pattern": "^\\s*摘\\s*要\\s*[：:]", "east": "SimHei"}]},
+    "keywords_cn":     {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 14,
+                        "labels": [{"pattern": "^\\s*关\\s*键\\s*词\\s*[：:]", "east": "SimHei"}]},
+    "clc":             {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 15.6,
+                        "labels": [{"pattern": "(中图分类号|文献标识码|文章编号)\\s*[：:]", "east": "SimHei"}]},
+    "bio":             {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 15.6,
+                        "labels": [{"pattern": "^\\s*作者简介\\s*[：:]", "east": "SimHei"}]},
+    "title_en":        {"latin": "Times New Roman", "east": "Times New Roman", "size": 14, "bold": true, "color": "000000", "align": "center", "first_pt": 0, "before": 13.5, "after": 11.8, "line_rule": "exact", "line_pt": 20},
+    "authors_en":      {"latin": "Times New Roman", "east": "Times New Roman", "size": 10.5, "align": "center", "first_pt": 0, "line_rule": "exact", "line_pt": 15.6},
+    "affiliation_en":  {"latin": "Times New Roman", "east": "Times New Roman", "size": 7.5,  "align": "center", "first_pt": 0, "after": 2, "line_rule": "exact", "line_pt": 15.6},
+    "abstract_en":     {"latin": "Times New Roman", "east": "Times New Roman", "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 15.6,
+                        "labels": [{"pattern": "^\\s*Abstract", "bold": true}]},
+    "keywords_en":     {"latin": "Times New Roman", "east": "Times New Roman", "size": 9, "align": "justify", "left_pt": 21.3, "right_pt": 21.3, "first_pt": 0, "line_rule": "exact", "line_pt": 15.6,
+                        "labels": [{"pattern": "^\\s*Key\\s*words", "bold": true}]},
+    "footnote":        {"latin": "Times New Roman", "east": "SimSun",   "size": 7.5, "align": "justify", "first_pt": 0, "line_rule": "exact", "line_pt": 12,
+                        "labels": [{"pattern": "基金项目\\s*[：:]", "east": "SimHei"},
+                                   {"pattern": "(收稿日期|修回日期|接受日期|网络出版日期)", "east": "SimHei"},
+                                   {"pattern": "Received|Revised|Accepted|Online", "bold": true}]},
+
+    "heading1":        {"latin": "Times New Roman", "east": "SimHei",   "size": 14,   "bold": false, "color": "000000", "align": "left", "first_pt": 0, "before": 15, "after": 0, "line_rule": "exact", "line_pt": 18},
+    "heading2":        {"latin": "Times New Roman", "east": "SimHei",   "size": 10.5, "bold": false, "color": "000000", "align": "left", "first_pt": 0, "line_rule": "exact", "line_pt": 15.6},
+    "heading3":        {"latin": "Times New Roman", "east": "SimSun",   "size": 10.5, "bold": false, "color": "000000", "align": "justify", "first_chars": 2, "line_rule": "exact", "line_pt": 15.6},
+    "reference_heading": {"latin": "Times New Roman", "east": "SimHei", "size": 10.5, "bold": false, "color": "000000", "align": "left", "first_pt": 0, "line_rule": "exact", "line_pt": 15.6},
+
+    "caption_fig_cn":  {"latin": "Times New Roman", "east": "SimHei",   "size": 9, "bold": false, "color": "000000", "align": "center", "first_pt": 0, "before": 3, "line_rule": "exact", "line_pt": 15.6},
+    "caption_fig_en":  {"latin": "Times New Roman", "east": "Times New Roman", "size": 9, "bold": false, "color": "000000", "align": "center", "first_pt": 0, "after": 3, "line_rule": "exact", "line_pt": 15.6},
+    "caption_tab_cn":  {"latin": "Times New Roman", "east": "SimHei",   "size": 9, "bold": false, "color": "000000", "align": "center", "first_pt": 0, "before": 3, "line_rule": "exact", "line_pt": 14},
+    "caption_tab_en":  {"latin": "Times New Roman", "east": "Times New Roman", "size": 9, "bold": false, "color": "000000", "align": "center", "first_pt": 0, "line_rule": "exact", "line_pt": 14},
+    "subcaption":      {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "center", "first_pt": 0, "line_rule": "exact", "line_pt": 14},
+    "table_body":      {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "center", "first_pt": 0, "line_rule": "exact", "line_pt": 14},
+
+    "statement":       {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "first_pt": 0, "line_rule": "exact", "line_pt": 15.6,
+                        "labels": [{"pattern": "^\\s*(利益冲突声明|作者贡献)\\s*/[^：:]*[：:]", "bold": true},
+                                   {"pattern": "^\\s*(利益冲突声明|作者贡献)", "east": "SimHei"}]},
+    "reference":       {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "justify", "left_pt": 18, "hanging_pt": 18, "line_rule": "exact", "line_pt": 16},
+
+    "header":          {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "left", "first_pt": 0, "line_rule": "auto", "line_multiple": 1.0},
+    "header_journal":  {"latin": "Times New Roman", "east": "SimSun",   "size": 12, "first_pt": 0},
+    "footer":          {"latin": "Times New Roman", "east": "SimSun",   "size": 9, "align": "center", "first_pt": 0, "line_rule": "auto", "line_multiple": 1.0}
+  },
+  "three_line_tables": {
+    "top_bottom_pt": 0.75,
+    "header_rule_pt": 0.5,
+    "header_bold": false,
+    "align": "center",
+    "cell_margin_tb_twips": 0,
+    "cell_margin_lr_twips": 57
+  },
+  "journal_header": {
+    "journal_cn": "岩 土 工 程 学 报",
+    "journal_en": "Chinese Journal of Geotechnical Engineering",
+    "rule_pt": 0.5,
+    "first_page_rule": "thickThinSmallGap",
+    "first_page_rule_pt": 2.25
+  }
+}
